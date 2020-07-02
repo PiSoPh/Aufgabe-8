@@ -5,7 +5,7 @@ class Books :
     public Library
 {
 public:
-	Books(std::string author, std::string title, int ID, int quantity, int release);
+	Books(int release, std::string author, std::string title, int ID, int quantity);
 	~Books();
 private:
 	using Library::m_type;

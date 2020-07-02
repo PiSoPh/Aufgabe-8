@@ -52,9 +52,9 @@ Library::~Library()
 void Library::fillLib()
 {
 	//Add Books to library
-	initializer_list<Library*> books = {new Books("Newt Scamander", "All you need to know about keeping Sentient Stick-Bugs", 1, 2, 2010),
-		new Books("All Might", "Go Beyond Plus Ultra", 2, 1, 1993),
-		new Books("Albert Einstein", "Cheers to the third Worldwar", 3, 10, 2012)}; //initialiserlist
+	initializer_list<Library*> books = {new Books(2010, "Newt Scamander", "All you need to know about keeping Sentient Stick-Bugs", 1, 2),
+		new Books(1993, "All Might", "Go Beyond Plus Ultra", 2, 1),
+		new Books(2012, "Albert Einstein", "Cheers to the third Worldwar", 3, 10)}; //initialiserlist
 	m_books.insert(books);
 
 

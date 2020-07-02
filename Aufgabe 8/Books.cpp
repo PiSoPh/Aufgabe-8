@@ -1,5 +1,5 @@
 #include "Books.h"
-Books::Books(std::string author, std::string title, int ID, int quantity, int release)
+Books::Books(int release, std::string author, std::string title, int ID, int quantity)
 {
 	m_type = "Book";
 	m_author = author;
